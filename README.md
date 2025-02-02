@@ -14,8 +14,7 @@ A chatbot application using **DeepSeek-R1** and **Qwen-Max** models, built with 
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/Solvehaider/Chatbot-using-deepseek-qwen.git
 ```
 
 ### 2️⃣ Create a Virtual Environment
