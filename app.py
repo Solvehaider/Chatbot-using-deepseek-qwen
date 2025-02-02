@@ -22,9 +22,10 @@ from langchain_community.document_loaders import PDFPlumberLoader
 
 import streamlit as st
 
+# login into aliababa cloud and from the model playgroung create api for yourself
+qwen_api = "your alibaba api"
 
-qwen_api = "sk-609ab37596ad4963b13792b696699cf8"
-pdfs_directory = "/Volumes/Haider ALi/Python/chatbot/deepseek/"
+pdfs_directory = "directory path where you can save pdf"
 
 embeddings = OllamaEmbeddings(model="deepseek-r1:1.5b")
 vector_store = InMemoryVectorStore(embeddings)
